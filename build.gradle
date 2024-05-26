@@ -33,7 +33,7 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 	implementation 'com.github.oshi:oshi-core:6.1.6' // OSHI 라이브러리 추가
-	testImplementation 'org.mockito:mockito-core:3.12.4' // mockito 테스트 추가
+	implementation 'org.springdoc:springdoc-openapi-ui:1.5.12' // Springdoc OpenAPI 추가
 }
 
 tasks.named('test') {
